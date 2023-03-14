@@ -1,6 +1,7 @@
 ---
 layout: default
 title: My Blog
+permlink: /blog/
 ---
 
 <!-- This loops through the paginated posts -->
