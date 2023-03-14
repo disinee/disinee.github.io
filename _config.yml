@@ -19,8 +19,12 @@ minima:
     github: disinee
 copyright: "Copyright © 2020 Disinee Kumanayaka"
 
+plugins: 
+  - jekyll-paginate
 
 # build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
 paginate: 5
+paginate_path: "/page:num/"
+
