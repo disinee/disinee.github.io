@@ -1,9 +1,10 @@
 title: Disinee @ GitHub
 author:
   name: Disinee Kumanayaka
-  email: disineek@gmail.com
+  email: "disineek@gmail.com"
 description: Disinee is a student of UNSW, Australia.
 baseurl: /
+url: "https://disinee.github.io/"
 timezone: Australia/Sydeny
 remote_theme: jekyll/minima
 minima:
@@ -11,7 +12,9 @@ minima:
   social_links:
     github: disinee
 copyright: "Copyright @ 2023 Disinee Kumanayaka"
+show_excerpts: true
 
 # build settings
-show_excerpts: true
+markdown: kramdown
 excerpt_separator: <!--more-->
+paginate: 5
