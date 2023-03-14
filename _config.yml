@@ -5,7 +5,7 @@ author:
 description: Disinee is a student of UNSW, Australia.
 baseurl: /
 timezone: Australia/Sydeny
-theme: jekyll-theme-minimal
+remote_theme: jekyll/minima
 minima:
   skin: classic
   social_links:
