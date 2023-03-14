@@ -1,4 +1,3 @@
-theme: jekyll-theme-minimal
 title: Disinee @ GitHub
 author:
   name: Disinee Kumanayaka
@@ -7,3 +6,9 @@ description: Disinee's tech blogs
 # baseurl: /
 timezone: Australia/Sydeny
 # show_excerpts: true
+theme: jekyll-theme-minimal
+minima:
+  skin: classic
+  social_links:
+    github: disinee
+copyright: "Copyright @ 2023 Disinee Kumanayaka"    
