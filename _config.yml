@@ -3,7 +3,7 @@ author:
   name: Disinee Kumanayaka
   email: disineek@gmail.com
 description: Disinee is a student of UNSW, Australia.
-# baseurl: /
+baseurl: /
 timezone: Australia/Sydeny
 # show_excerpts: true
 theme: jekyll-theme-minimal
