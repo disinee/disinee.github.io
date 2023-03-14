@@ -2,5 +2,9 @@ theme: jekyll-theme-minimal
 title: Disinee @ GitHub
 author:
   name: Disinee Kumanayaka
-  email: disineek@gmail.com
+  email: "disineek@gmail.com"
 description: Disinee's tech blogs
+baseurl: /
+url: "https://disinee.github.io"
+timezone: Australia/Sydeny
+show_excerpts: true
