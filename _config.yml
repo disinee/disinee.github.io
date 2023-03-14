@@ -11,6 +11,7 @@ show_excerpts: true
 
 header_pages:
   - about.md
+  - blog/index.md
 
 remote_theme: jekyll/minima@41b97699af658128fa9983e5312ca5516641f335
 minima:
