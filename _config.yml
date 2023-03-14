@@ -5,10 +5,13 @@ author:
 description: Disinee is a student of UNSW, Australia.
 baseurl: /
 timezone: Australia/Sydeny
-# show_excerpts: true
 theme: jekyll-theme-minimal
 minima:
   skin: classic
   social_links:
     github: disinee
-copyright: "Copyright @ 2023 Disinee Kumanayaka"    
+copyright: "Copyright @ 2023 Disinee Kumanayaka"
+
+# build settings
+show_excerpts: true
+excerpt_separator: <!--more-->
