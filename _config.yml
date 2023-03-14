@@ -6,7 +6,7 @@ description: >-
   Disinee is a student of UNSW, Australia.
 baseurl: /
 url: "https://disinee.github.io"
-timezone: Australia/Sydeny
+timezone: Australia/Sydney
 show_excerpts: true
 
 header_pages:
