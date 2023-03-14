@@ -1,7 +1,5 @@
 ---
-layout: page
-title: Blog
-permlink: /blog/
+layout: home
 ---
 
 <!-- This loops through the paginated posts -->
