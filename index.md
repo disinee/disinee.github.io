@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Test 6
+Test 7
 {% include_relative blog/index.html %}  
 # Index page
 # v2.0
