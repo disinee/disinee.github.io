@@ -19,7 +19,7 @@ header_pages:
 #   social_links:
 #     github: disinee
 copyright: "Copyright © 2020 Disinee Kumanayaka"
-remote_theme: minima
+remote_theme: pages-themes/minima@3.0.0
 
 plugins: 
   - jekyll-paginate
