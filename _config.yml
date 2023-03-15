@@ -13,13 +13,16 @@ header_pages:
   - about.html
   - blog/index.html
 
-# remote_theme: jekyll/minima@41b97699af658128fa9983e5312ca5516641f335
-# minima:
-#   skin: classic
-#   social_links:
-#     github: disinee
+remote_theme: jekyll/minima@41b97699af658128fa9983e5312ca5516641f335
+# remote_theme: jekyll/minima
+minima:
+  skin: classic
+  social_links:
+    github: disinee
+  date_format: "%b %-d, %Y"  
+
 copyright: "Copyright © 2020 Disinee Kumanayaka"
-remote_theme: jekyll/minima
+
 
 plugins: 
   - jekyll-paginate
