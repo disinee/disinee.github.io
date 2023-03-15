@@ -4,7 +4,7 @@ author:
   email: "disineek@gmail.com"
 description: >- 
   Disinee is a student of UNSW, Australia.
-baseurl: "/blog"
+baseurl: ""
 url: "https://disinee.github.io"
 timezone: Australia/Sydney
 show_excerpts: true
@@ -16,7 +16,7 @@ show_excerpts: true
 remote_theme: jekyll/minima@41b97699af658128fa9983e5312ca5516641f335
 # remote_theme: jekyll/minima
 minima:
-  skin: classic
+  skin: dark
   social_links:
     github: disinee
   date_format: "%b %-d, %Y"  
