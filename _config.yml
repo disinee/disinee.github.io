@@ -9,12 +9,12 @@ url: "https://disinee.github.io"
 timezone: Australia/Sydney
 show_excerpts: true
 
-# header_pages:
-#   - about.html
-#   - blog/index.html
+header_pages:
+  - about.html
+  - blog/index.html
 
-remote_theme: jekyll/minima@41b97699af658128fa9983e5312ca5516641f335
-# remote_theme: jekyll/minima@3.6.0
+# remote_theme: jekyll/minima@41b97699af658128fa9983e5312ca5516641f335
+remote_theme: jekyll/minima@3.6.0
 minima:
   skin: dark
   social_links:
@@ -22,9 +22,6 @@ minima:
   date_format: "%b %-d, %Y"  
 
 copyright: "Copyright © 2020 Disinee Kumanayaka"
-
-include:
-  - _pages
 
 plugins: 
   - jekyll-paginate
