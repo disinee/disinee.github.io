@@ -4,7 +4,7 @@ author:
   email: "disineek@gmail.com"
 description: >- 
   Disinee is a student of UNSW, Australia.
-baseurl: ""
+baseurl: /blog
 url: "https://disinee.github.io"
 timezone: Australia/Sydney
 show_excerpts: true
