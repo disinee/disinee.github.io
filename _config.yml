@@ -39,3 +39,15 @@ algolia:
   application_id: DECGY3QS7P
   index_name: disinee_github_io
   search_only_api_key: b84169f502c752e5e8abcf555dcb214a
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+    - exec
+    - jekyll
+    - build
