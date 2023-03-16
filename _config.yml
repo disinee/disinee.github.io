@@ -36,6 +36,6 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 
 algolia:
-  application_id: 247I9HI0FJ
-  index_name: ojitha_github_io
-  search_only_api_key: c0e739fba2a9fa6f1de62c04507daf1d
+  application_id: DECGY3QS7P
+  index_name: disinee_github_io
+  search_only_api_key: b84169f502c752e5e8abcf555dcb214a
