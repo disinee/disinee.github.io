@@ -17,3 +17,4 @@ This is my content
 x <- 5 + 6
 ```
 
+[Link to welcome]({% post_url 2023-03-10-welcome %})
