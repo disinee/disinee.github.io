@@ -15,8 +15,8 @@ Note: [R Studio]([RStudio Desktop - Posit](https://posit.co/download/rstudio-des
 
 ```R
 library(ggplot2)
-data <- data.frame(name=c("James", "Disinee", "Bob", "Lucy", "Jack", "Keith", "Layla", 					   "Ruse", NA),age=c(12,25,27,15,31,47,24,18,19),
-                   gender=c("M","F","M","F","M","M","F","M","M"))
+data <- data.frame(name=c("James", "Disinee", "Bob", "Lucy", "Jack", "Keith", "Layla","Ruse", NA),age=c(12,25,27,15,31,47,24,18,19),
+gender=c("M","F","M","F","M","M","F","M","M"))
 #Remove rows with NA
 na.omit(data)
 ```
