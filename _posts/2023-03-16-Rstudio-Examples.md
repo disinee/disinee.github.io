@@ -11,7 +11,8 @@ R examples.
 
 * TOC
 {:toc}
-Note: [R Studio]([RStudio Desktop - Posit](https://posit.co/download/rstudio-desktop/)) was used for the following codes.
+
+Note: [R Studio](https://posit.co/download/rstudio-desktop/) was used for the following codes.
 
 ```R
 library(ggplot2)
