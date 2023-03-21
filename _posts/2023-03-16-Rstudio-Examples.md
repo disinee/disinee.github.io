@@ -20,6 +20,7 @@ data <- data.frame(name=c("James", "Disinee", "Bob", "Lucy", "Jack", "Keith", "L
 #Remove rows with NA
 na.omit(data)
 ```
+
 | name | age | gender |
 |:------|--------|---------|
 | James | 12 | M |
@@ -30,6 +31,7 @@ na.omit(data)
 | Keith | 47 | M |
 | Layla | 24 | F |
 | Ruse | 18 | M |
+
 
 ## Bar Chart 
 
