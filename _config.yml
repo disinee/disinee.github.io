@@ -10,7 +10,7 @@ timezone: Australia/Sydney
 show_excerpts: true
 
 header_pages:
-  - about.html
+  - about.md
   - blog/index.html
   - catalogue.html
 
@@ -40,7 +40,7 @@ algolia:
   index_name: disinee_github_io
   search_only_api_key: b84169f502c752e5e8abcf555dcb214a
   files_to_exclude:
-    - about.html
+    - about.md
     - index.md
     - catalogue.html
     - blog/index.html
