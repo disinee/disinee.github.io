@@ -1,72 +1,12 @@
 ---
 layout: post
-title:  Data Visualisation Techniques
-date: 2023-03-16
-category: [R]
+title:  Hashiwokakero
+date: 2024-03-04
+category: [Projects]
 ---
 
-R examples.
+Hashiwokakero is a logic puzzle game where players are presented with a grid circle, each containing a number. As this was a constraint satisfaction problem, our team employed a backtracking search algorithm on a 2D array as the data structure. Recursion on this 2D array enabled us to deploy forward checking to detect failure (unsatisfied constraints). 
 
 <!--more-->
 
-* TOC
-{:toc}
-
-Note: [R Studio](https://posit.co/download/rstudio-desktop/) was used for the following codes.
-
-```R
-library(ggplot2)
-data <- data.frame(name=c("James", "Disinee", "Bob", "Lucy", "Jack", "Keith", "Layla","Ruse", NA),age=c(12,25,27,15,31,47,24,18,19),
-gender=c("M","F","M","F","M","M","F","M","M"))
-#Remove rows with NA
-na.omit(data)
-```
-
-| name | age | gender |
-|:------|--------|---------|
-| James | 12 | M |
-| Disinee | 25 | F |
-| Bob | 27   | M |
-| Lucy | 15 | F |
-| Jack | 31 | M |
-| Keith | 47 | M |
-| Layla | 24 | F |
-| Ruse | 18 | M |
-
-
-## Bar Chart 
-
-```R
-
-
-```
-
-### Stacked Bar Chart
-
-### Grouped Bar Chart
-
-
-
-## Line Chart 
-
-----
-
-dfgfgh
-
-
-
-## Pie Chart
-
-sgdhfh
-
-### Multi-Pie Chart
-
-## Spider Charts
-
-sgdh
-
-## Scatter Plots
-
-## Histograms
-
-## Mosaic Plot
+The program begins by scanning the map given from standard input via the scan_map() function. It scans all the islands into a dictionary where the keys are the island number and the value is a class type Island which holds all the relevant information of that particular island. 
