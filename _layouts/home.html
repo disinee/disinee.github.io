@@ -2,33 +2,46 @@
 layout: default
 ---
 
-<div class="home">
+<div class="max-w-4xl mx-auto px-4 py-8">
 
-  {{ content }}
+  <!-- Hero / Intro -->
+  <div class="text-center mb-12">
+    <h1 class="text-4xl font-bold text-gray-900 mb-2">Welcome to My Blog</h1>
+    <p class="text-gray-600 text-lg">Exploring puzzles, code, and curiosity.</p>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- Search Bar -->
+  <div class="mb-8">
+    <div id="search-searchbar" class="border rounded-md px-4 py-2 shadow-sm focus-within:ring-2 ring-blue-300"></div>
+  </div>
 
-  <div id="search-searchbar"></div>
+  <!-- Section Heading -->
+  <h2 class="text-2xl font-semibold text-gray-800 mb-6">Latest Posts</h2>
 
-  <div class="post-list" id="search-hits">
+  <!-- Post List -->
+  <div id="search-hits" class="space-y-8">
     {% for post in site.posts %}
-      <div class="post-item">
+      <div class="post-item border-b pb-4">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="text-sm text-gray-500">{{ post.date | date: date_format }}</span>
 
-        <h2>
+        <h3 class="text-xl font-semibold text-blue-700 hover:underline mt-1">
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h2>
+        </h3>
 
-        <div class="post-snippet">{{ post.excerpt }}</div>
+        <p class="text-gray-700 mt-2">{{ post.excerpt | strip_html | truncate: 160 }}</p>
       </div>
     {% endfor %}
   </div>
 
+  <!-- Algolia Search Integration -->
   {% include algolia.html %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+  <!-- RSS Footer -->
+  <div class="mt-10 text-center text-sm text-gray-500">
+    <p>Subscribe <a class="text-blue-600 hover:underline" href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+  </div>
 
 </div>
