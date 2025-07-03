@@ -11,7 +11,7 @@ permalink: /about/
     <!-- Use your image here -->
     <img src="/assets/images/about/1720595057457.jpeg" 
          alt="Disinee's Profile" 
-         class="w-10 h-10 rounded-full mx-auto shadow mb-4" />
+         class="w-2 h-2 rounded-full mx-auto shadow mb-4" />
          
   <h2 class="text-center text-xl font-bold">Disinee Kumanayaka</h2>
     <p class="text-center text-sm text-gray-400">Finance| Computer Science| Data Analytics | Programming Tutor</p>
