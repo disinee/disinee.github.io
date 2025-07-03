@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+<!-- sdgjnfgn -->
 
 <!-- Hero Section -->
 <div class="bg-gray-100 py-12 text-center">
