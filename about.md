@@ -7,12 +7,12 @@ permalink: /about/
 
 <!-- Sidebar -->
 <aside class="w-72 bg-gray-800 p-6 flex flex-col justify-between">
-  <div>
-    <!-- Use your image here -->
-    <img src="/assets/images/about/1720595057457.jpeg" 
-         alt="Disinee's Profile" 
-         class="w-2 h-2 rounded-full mx-auto shadow mb-4" />
-         
+  <div style="text-align: center; margin-top: 20px;">
+  <img src="/assets/images/about/1720595057457.jpeg" 
+       alt="Disinee's Profile" 
+       style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px;" />
+</div>
+        
   <h2 class="text-center text-xl font-bold">Disinee Kumanayaka</h2>
     <p class="text-center text-sm text-gray-400">Finance| Computer Science| Data Analytics | Programming Tutor</p>
 
